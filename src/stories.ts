@@ -140,8 +140,8 @@ export const STORIES: Record<string, PropStory> = {
     tags: ['ServiceNow', 'Azure', 'Defender', 'Splunk', 'TypeScript', 'Kotlin'],
   },
   'foundations/cv': {
-    kicker: 'Resume', title: 'CV coming soon', text: 'A downloadable CV is on its way. Until then, LinkedIn has the full history.',
+    kicker: 'Resume', title: 'The CV', text: 'Every role, project and skill on two pages, as a PDF. It is made from the same data as this tower (src/cv.ts), so the two never disagree.',
     tags: ['Open to consulting', 'Speaking'],
-    links: [{ label: 'LinkedIn', href: LINKEDIN }],
+    links: [{ label: 'Download the CV (PDF)', href: '/cv/dimiter-todorov-cv.pdf' }, { label: 'LinkedIn', href: LINKEDIN }],
   },
 };

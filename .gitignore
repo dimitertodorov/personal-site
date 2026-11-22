@@ -3,3 +3,6 @@ dist
 
 # one machine's paths and services
 LOCAL.md
+
+# the CV PDF, made from src/cv.ts by tools/build-cv.ts before every build
+public/cv/

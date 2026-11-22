@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "vite --port 5181 --strictPort --host 127.0.0.1",
     "typecheck": "tsc --noEmit",
-    "build": "tsc --noEmit && vite build",
-    "build:static": "tsc --noEmit && popfold build",
+    "build": "tsc --noEmit && node tools/build-cv.ts && vite build",
+    "build:static": "tsc --noEmit && node tools/build-cv.ts && popfold build",
     "preview": "vite preview",
-    "deploy:site": "pnpm build:static && wrangler deploy"
+    "deploy:site": "pnpm build:static && wrangler deploy",
+    "cv": "node tools/build-cv.ts"
   },
   "dependencies": {
     "@fontsource-variable/bricolage-grotesque": "^5.3.0",

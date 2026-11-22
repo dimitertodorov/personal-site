@@ -44,7 +44,6 @@
   "Let's connect.": "Да се свържем.",
   "Open to consulting and speaking on security integrations, ServiceNow SecOps and AI-assisted engineering. Toronto, Ontario · remote.": "Отворен за консултации и лекции по интеграции за сигурност, ServiceNow SecOps и разработка с помощта на ИИ. Торонто, Онтарио · дистанционно.",
   "Message me on LinkedIn": "Пишете ми в LinkedIn",
-  "CV coming soon.": "Автобиографията идва скоро.",
   "On this floor": "На този етаж",
   "Now building": "В момента",
   "CheriBase: НЗОК rights for a prosthetics center": "CheriBase: права по НЗОК за център за протезиране",
@@ -120,8 +119,6 @@
   "The toolbox": "Инструментите",
   "ServiceNow (SecOps and platform, SDK/Fluent, ATF, IRE), Microsoft Defender, Sentinel and Splunk, Azure (Bicep, Entra ID, Key Vault, Graph), Azure DevOps and GitHub Actions, Microsoft 365, Cloudflare. Languages: TypeScript, JavaScript, Kotlin, Python, PowerShell, KQL, SQL, Ruby, ClojureScript.": "ServiceNow (SecOps и платформа, SDK/Fluent, ATF, IRE), Microsoft Defender, Sentinel и Splunk, Azure (Bicep, Entra ID, Key Vault, Graph), Azure DevOps и GitHub Actions, Microsoft 365, Cloudflare. Езици: TypeScript, JavaScript, Kotlin, Python, PowerShell, KQL, SQL, Ruby, ClojureScript.",
   "Resume": "Автобиография",
-  "CV coming soon": "Автобиографията идва скоро",
-  "A downloadable CV is on its way. Until then, LinkedIn has the full history.": "Автобиография за изтегляне предстои. Дотогава пълната история е в LinkedIn.",
   "Open to consulting": "Отворен за консултации",
   "Speaking": "Лекции",
   "Why it's here": "Защо е тук",
@@ -234,5 +231,9 @@
   "Defender": "Defender",
   "See my code on GitHub": "Вижте кода ми в GitHub",
   "GitHub": "GitHub",
+  "The CV": "Автобиографията",
+  "Every role, project and skill on two pages, as a PDF. It is made from the same data as this tower (src/cv.ts), so the two never disagree.": "Всяка роля, проект и умение на две страници, като PDF (на английски). Създава се от същите данни като тази кула (src/cv.ts), така че двете никога не се разминават.",
+  "Download the CV (PDF)": "Изтеглете автобиографията (PDF, на английски)",
+  "Download my CV (PDF)": "Изтеглете автобиографията ми (PDF, на английски)",
   "Made with Popfold": "Направено с Popfold"
 }
