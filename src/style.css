@@ -43,6 +43,10 @@ a { color: inherit; }
   position: fixed; inset: 0 0 auto; z-index: 10; display: flex; align-items: center; justify-content: space-between;
   gap: 16px; padding: 16px clamp(16px, 4vw, 40px);
 }
+/* the page's foot, below the last floor: the Popfold badge, above the 3D canvas */
+.site-footer { position: relative; z-index: 1; display: flex; justify-content: center; padding: 8px 16px 40px; }
+.made-with-popfold { display: inline-flex; opacity: 0.85; transition: opacity 0.2s; }
+.made-with-popfold:hover, .made-with-popfold:focus-visible { opacity: 1; }
 .brand { font: 800 24px var(--display); text-decoration: none; letter-spacing: -0.02em; }
 .brand b { color: var(--pink); text-shadow: 0 0 14px rgba(255, 79, 216, 0.6); }
 nav { display: flex; align-items: center; gap: 6px; }
