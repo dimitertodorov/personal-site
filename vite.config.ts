@@ -3,7 +3,8 @@ import { homeSaver, popfoldFallback } from 'popfold/vite';
 import { STORIES } from './src/stories.ts'; // with its extension: Vite's native config loader needs it
 
 const LINKEDIN = 'https://www.linkedin.com/in/dimiter-todorov-94248213/';
-const CONTACT = `## Contact\n\n- LinkedIn: ${LINKEDIN}\n- Toronto, Ontario · remote · open to consulting and speaking`;
+const GITHUB = 'https://github.com/dimitertodorov';
+const CONTACT = `## Contact\n\n- LinkedIn: ${LINKEDIN}\n- GitHub: ${GITHUB}\n- Toronto, Ontario · remote · open to consulting and speaking`;
 
 // The personal resume site on Popfold: the site (index.html) and Popfold Studio (studio.html).
 // popfoldFallback writes the tower's stories under each floor's section, adds the stills captured in the studio
@@ -32,7 +33,7 @@ export default defineConfig({
         address: { '@type': 'PostalAddress', addressLocality: 'Toronto', addressRegion: 'ON', addressCountry: 'CA' },
         worksFor: { '@type': 'GovernmentOrganization', name: 'Ontario Treasury Board Secretariat' },
         alumniOf: { '@type': 'CollegeOrUniversity', name: 'Georgian College' },
-        sameAs: [LINKEDIN],
+        sameAs: [LINKEDIN, GITHUB],
         knowsAbout: ['ServiceNow Security Incident Response', 'Vulnerability Response', 'USEM / CTEM', 'Systems integration', 'CMDB',
           'Microsoft Defender', 'Microsoft Sentinel', 'Splunk', 'Azure', 'Azure DevOps', 'Microsoft 365', 'Cloudflare',
           'Penetration testing', 'AI-assisted software engineering', 'TypeScript', 'Kotlin'],
