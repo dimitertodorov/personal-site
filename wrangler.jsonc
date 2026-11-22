@@ -1,0 +1,19 @@
+// Hosting: one Cloudflare Worker that serves the built site (dist/) as static files at https://todorov.ca, with
+// www.todorov.ca serving the same. There is no server code. Deploy with `pnpm deploy:site`, which captures the stills
+// and builds first. Cloudflare never sees this repository: only the built folder is uploaded.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "personal-site",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "todorov.ca", "custom_domain": true },
+    { "pattern": "www.todorov.ca", "custom_domain": true }
+  ],
+  "workers_dev": false,
+  "preview_urls": false
+}

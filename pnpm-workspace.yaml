@@ -1,0 +1,8 @@
+# Wrangler (the Cloudflare deploy tool) needs these two to fetch the program for this machine
+allowBuilds:
+  esbuild: true
+  workerd: true
+
+# Popfold is our own package: take a new release the day it is published (pnpm otherwise waits a day)
+minimumReleaseAgeExclude:
+  - '@popfold/engine'

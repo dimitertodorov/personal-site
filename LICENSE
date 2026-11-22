@@ -1,0 +1,30 @@
+This repository holds Dimiter Todorov's personal site, https://todorov.ca. Its parts are under different terms.
+
+1. The code (the files under src/ and tools/, and the configuration files) is under the MIT License below.
+2. The content is not licensed for reuse: the text about Dimiter Todorov (index.html, src/stories.ts, src/home.json's
+   labels, src/i18n/), the pictures in public/stills/, and the name and likeness. Copyright (c) 2026 Dimiter Todorov,
+   all rights reserved. Quoting it with a link back is fine.
+3. The models in public/models/props/ keep their own licences (CC0, CC-BY 3.0 or the Free Art License), listed with
+   their creators in CREDITS.md. Those not listed there were made for this site and are under the MIT License below.
+
+MIT License
+
+Copyright (c) 2026 Dimiter Todorov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

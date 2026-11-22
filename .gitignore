@@ -1,0 +1,5 @@
+node_modules
+dist
+
+# one machine's paths and services
+LOCAL.md

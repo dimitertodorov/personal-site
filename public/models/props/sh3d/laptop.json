@@ -1,0 +1,28 @@
+{
+  "source": "Sweet Home 3D furniture library (SweetHome3D-Packs mirror)",
+  "pack": "Contributions",
+  "index": 106,
+  "id": "Sleipnir1#portable",
+  "name": "Laptop",
+  "creator": "Sleipnir1",
+  "license": "Free Art",
+  "category": "Office",
+  "size_cm": {
+    "width": 30.0,
+    "depth": 25.3,
+    "height": 19.2
+  },
+  "elevation_cm": 0.0,
+  "triangles": 43722,
+  "materials": [
+    "flgrey",
+    "brass",
+    "yelloworng",
+    "redorange",
+    "gold",
+    "black",
+    "white",
+    "flltgrey",
+    "grey"
+  ]
+}

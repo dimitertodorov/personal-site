@@ -1,0 +1,21 @@
+{
+  "source": "Sweet Home 3D furniture library (SweetHome3D-Packs mirror)",
+  "pack": "Scopia",
+  "index": 287,
+  "id": "Scopia#CCTV",
+  "name": "CCTV",
+  "creator": "Scopia",
+  "license": "CC-BY",
+  "category": "Miscellaneous",
+  "size_cm": {
+    "width": 14.0,
+    "depth": 14.0,
+    "height": 11.7
+  },
+  "elevation_cm": 0.0,
+  "triangles": 550,
+  "materials": [
+    "whiteplastic",
+    "eyetexture"
+  ]
+}

@@ -1,0 +1,9 @@
+/* Popfold's story card in this site's colours: a pale violet card in night ink with neon pink buttons.
+   Shared by the page (style.css) and the studio (studio.ts). Keep in step with NEON in src/tower.ts. */
+:root {
+  --pf-card-bg: #F3F0FF;
+  --pf-card-ink: #120C2E;
+  --pf-card-accent: #FF4FD8;
+  --pf-card-tag: #E2DAFF;
+  --pf-card-focus: #7B5CFF;
+}

@@ -1,0 +1,22 @@
+{
+  "source": "Sweet Home 3D furniture library (SweetHome3D-Packs mirror)",
+  "pack": "BlendSwap-CC-0",
+  "index": 77,
+  "id": "Blend Swap CC-0#littlePlant",
+  "name": "Little plant",
+  "creator": "Rameshrj",
+  "license": "CC-0",
+  "category": "Living room",
+  "size_cm": {
+    "width": 26.6,
+    "depth": 26.6,
+    "height": 23.2
+  },
+  "elevation_cm": 0.0,
+  "triangles": 1116,
+  "materials": [
+    "Pot",
+    "Mutt",
+    "Leaf_001"
+  ]
+}
